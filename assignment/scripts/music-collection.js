@@ -29,10 +29,11 @@ console.log('Adding sixth album to collection', addToCollection('Diary of a Madm
 console.log(collection);
 //  console.log the collection array
 //  First commit added here
-
+let artist = ['White Lion', 'Beastie Boys', 'Quiet Riot', 'Ozzy Osbourne'];
 //  Add a function named showCollection
 function showCollection (array) {
   console.log('My collection contains ${array.length} records.');
+//  Something is wrong on line 35
   for (let items of array) {
     console.log(`${items.title} by ${items.artist} published ${items.yearPublished}:`);
   }
@@ -44,3 +45,14 @@ showCollection(collection);
 //  Test the showCollection function
 
 // Add a function named findByArtist
+function findByArtist (artist){
+  let emptyArray = [];
+    for (let i=0; i<collection.lengh; i++){
+      if (artist = collection.title){
+    }
+  }
+}
+// Not completely finished with this section of the work
+
+// Test the findByArtist function
+console.log( findByArtist( 'Beastie Boys', artist));
